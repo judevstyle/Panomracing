@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-Panomracing/Pods-Panomracing-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BarcodeEasyScan/BarcodeEasyScan.framework
+${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
+${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework
+${BUILT_PRODUCTS_DIR}/RadioGroup/RadioGroup.framework
+${BUILT_PRODUCTS_DIR}/ScanCode/ScanCode.framework
+${BUILT_PRODUCTS_DIR}/SweeterSwift/SweeterSwift.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework

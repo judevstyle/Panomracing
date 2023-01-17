@@ -1,0 +1,6 @@
+framework module Pods_Panomracing {
+  umbrella header "Pods-Panomracing-umbrella.h"
+
+  export *
+  module * { export * }
+}

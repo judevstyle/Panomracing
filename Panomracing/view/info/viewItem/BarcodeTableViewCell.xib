@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sarabun-Medium.ttf">
+            <string>Sarabun-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BarcodeTableViewCell" rowHeight="48" id="KGk-i7-Jjw" customClass="BarcodeTableViewCell" customModule="Panomracing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="476" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waD-VM-KDa">
+                        <rect key="frame" x="12" y="6" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="AQ7-IK-4hX"/>
+                            <constraint firstAttribute="height" constant="24" id="ygA-05-iGU"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="onTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jb8-E6-90v"/>
+                        </connections>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bst-FF-TyX">
+                        <rect key="frame" x="48" y="12" width="416" height="16"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ML2-zc-1dN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="16"/>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqM-sp-YCj">
+                                <rect key="frame" x="248" y="0.0" width="80" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="f78-yo-rxl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9U-iU-ZFY">
+                                <rect key="frame" x="336" y="0.0" width="80" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="vlF-SF-iTi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DqM-sp-YCj" secondAttribute="bottom" id="MKU-lA-L17"/>
+                            <constraint firstItem="p9U-iU-ZFY" firstAttribute="leading" secondItem="DqM-sp-YCj" secondAttribute="trailing" constant="8" id="SAr-so-ZAP"/>
+                            <constraint firstItem="p9U-iU-ZFY" firstAttribute="leading" secondItem="DqM-sp-YCj" secondAttribute="trailing" constant="8" id="Utv-OW-o68"/>
+                            <constraint firstItem="DqM-sp-YCj" firstAttribute="top" secondItem="Bst-FF-TyX" secondAttribute="top" id="aqe-S6-kZc"/>
+                            <constraint firstItem="DqM-sp-YCj" firstAttribute="leading" secondItem="ML2-zc-1dN" secondAttribute="trailing" constant="8" id="pp5-cY-I1f"/>
+                            <constraint firstAttribute="trailing" secondItem="p9U-iU-ZFY" secondAttribute="trailing" id="uUn-dI-qDn"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bst-FF-TyX" firstAttribute="leading" secondItem="waD-VM-KDa" secondAttribute="trailing" constant="12" id="0QD-Hp-vQF"/>
+                    <constraint firstAttribute="trailing" secondItem="Bst-FF-TyX" secondAttribute="trailing" constant="12" id="9Mp-ZA-xp9"/>
+                    <constraint firstItem="Bst-FF-TyX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KJj-dd-ALh"/>
+                    <constraint firstAttribute="bottom" secondItem="waD-VM-KDa" secondAttribute="bottom" constant="4" id="USu-xv-P55"/>
+                    <constraint firstItem="waD-VM-KDa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="YGD-aa-wUd"/>
+                    <constraint firstItem="waD-VM-KDa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="YQ6-yc-G7h"/>
+                    <constraint firstItem="waD-VM-KDa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="mKk-d6-hPp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameTV" destination="ML2-zc-1dN" id="04Q-QS-v2B"/>
+                <outlet property="perUnitLB" destination="p9U-iU-ZFY" id="Apd-4q-UZ6"/>
+                <outlet property="stateBT" destination="waD-VM-KDa" id="iRV-ic-P8o"/>
+                <outlet property="unit" destination="DqM-sp-YCj" id="DnP-td-can"/>
+            </connections>
+            <point key="canvasLocation" x="247.82608695652175" y="106.47321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

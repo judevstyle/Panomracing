@@ -1,0 +1,109 @@
+PODS:
+  - Alamofire (5.6.2)
+  - BarcodeEasyScan (0.3.0)
+  - HMSegmentedControl (1.5.6)
+  - Kingfisher (6.3.1)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+FilledStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+UnderlinedStyle"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+UnderlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+FilledTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+FilledStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MDFInternationalization (3.0.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ProgressHUD (13.6)
+  - QRCodeReader.swift (10.1.0)
+  - RadioGroup (1.4.4):
+    - SweeterSwift
+  - ScanCode (1.0.7)
+  - SweeterSwift (1.2.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BarcodeEasyScan
+  - HMSegmentedControl
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`, branch `version6-xcode13`)
+  - "MaterialComponents/TextControls+FilledTextFields"
+  - Moya
+  - ProgressHUD
+  - QRCodeReader.swift (~> 10.1.0)
+  - RadioGroup
+  - ScanCode
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BarcodeEasyScan
+    - HMSegmentedControl
+    - MaterialComponents
+    - MDFInternationalization
+    - Moya
+    - ProgressHUD
+    - QRCodeReader.swift
+    - RadioGroup
+    - ScanCode
+    - SweeterSwift
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :branch: version6-xcode13
+    :git: https://github.com/onevcat/Kingfisher.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: d0494dd78f7adf2d3526fdf3267176553020c041
+    :git: https://github.com/onevcat/Kingfisher.git
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  BarcodeEasyScan: 9a7b2ca4c60c6ec93c433e5c14bc18657b8f7deb
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
+  Kingfisher: 8b783c3d7be73a99b2172a743a5bc0a4dd331d79
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
+  RadioGroup: 8541fae4af7ee54125a9e237105982c1fbeedaa7
+  ScanCode: 127d74f2ce6be5e6dd80d46d995e60aadd1f79fc
+  SweeterSwift: 61baeda1c0c27d1dc57c8112c3d6a82e5aff3139
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: fe9b65116cce6db5e38f7740f4996caaa80a8232
+
+COCOAPODS: 1.11.2

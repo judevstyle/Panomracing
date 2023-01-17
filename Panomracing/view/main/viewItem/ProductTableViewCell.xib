@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sarabun-Medium.ttf">
+            <string>Sarabun-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductTableViewCell" rowHeight="114" id="KGk-i7-Jjw" customClass="ProductTableViewCell" customModule="Panomracing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nmc-db-F9v">
+                        <rect key="frame" x="4" y="12" width="368" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="รหัส : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="533-dS-x7a">
+                                <rect key="frame" x="12" y="12" width="34.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRm-rd-KZk">
+                                <rect key="frame" x="87" y="34.5" width="269" height="18.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="7C6-5a-06p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ชื่อสินค้า :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iM9-hL-f4n">
+                                <rect key="frame" x="12" y="35" width="67" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="aeG-Pc-6II"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ชื่อสินค้า :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sis-W7-ayp">
+                                <rect key="frame" x="12" y="57" width="344" height="21"/>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqb-JX-lVa">
+                                <rect key="frame" x="322" y="12" width="34" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ชื่อสินค้า :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aB-L0-LsR">
+                                <rect key="frame" x="12" y="82" width="344" height="21"/>
+                                <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Sis-W7-ayp" secondAttribute="trailing" constant="12" id="1MD-OH-e47"/>
+                            <constraint firstItem="2aB-L0-LsR" firstAttribute="top" secondItem="Sis-W7-ayp" secondAttribute="bottom" constant="4" id="FxK-4V-JRX"/>
+                            <constraint firstItem="iM9-hL-f4n" firstAttribute="leading" secondItem="nmc-db-F9v" secondAttribute="leading" constant="12" id="Jlc-cG-DX0"/>
+                            <constraint firstItem="533-dS-x7a" firstAttribute="leading" secondItem="nmc-db-F9v" secondAttribute="leading" constant="12" id="RZt-WP-9JH"/>
+                            <constraint firstAttribute="trailing" secondItem="yRm-rd-KZk" secondAttribute="trailing" constant="12" id="Stn-U9-2m4"/>
+                            <constraint firstItem="iM9-hL-f4n" firstAttribute="top" secondItem="533-dS-x7a" secondAttribute="bottom" constant="4" id="VZZ-KK-8R0"/>
+                            <constraint firstItem="2aB-L0-LsR" firstAttribute="leading" secondItem="Sis-W7-ayp" secondAttribute="leading" id="Ztc-L8-lYO"/>
+                            <constraint firstItem="yRm-rd-KZk" firstAttribute="top" secondItem="iM9-hL-f4n" secondAttribute="top" id="cKh-uG-xQk"/>
+                            <constraint firstItem="Fqb-JX-lVa" firstAttribute="top" secondItem="533-dS-x7a" secondAttribute="top" id="epa-Uf-nmz"/>
+                            <constraint firstItem="533-dS-x7a" firstAttribute="top" secondItem="nmc-db-F9v" secondAttribute="top" constant="12" id="hSM-Hf-gtc"/>
+                            <constraint firstItem="yRm-rd-KZk" firstAttribute="leading" secondItem="iM9-hL-f4n" secondAttribute="trailing" constant="8" symbolic="YES" id="keH-Ub-aXz"/>
+                            <constraint firstItem="2aB-L0-LsR" firstAttribute="trailing" secondItem="Sis-W7-ayp" secondAttribute="trailing" id="l33-mP-kNT"/>
+                            <constraint firstItem="Sis-W7-ayp" firstAttribute="leading" secondItem="iM9-hL-f4n" secondAttribute="leading" id="nYK-Fh-CNp"/>
+                            <constraint firstAttribute="bottom" secondItem="2aB-L0-LsR" secondAttribute="bottom" constant="11" id="sxN-Ao-5d3"/>
+                            <constraint firstAttribute="trailing" secondItem="Fqb-JX-lVa" secondAttribute="trailing" constant="12" id="tTi-5D-M3o"/>
+                            <constraint firstItem="Sis-W7-ayp" firstAttribute="top" secondItem="yRm-rd-KZk" secondAttribute="bottom" constant="4" id="uxW-RX-I1W"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="nmc-db-F9v" secondAttribute="trailing" constant="4" id="0D5-A2-Rse"/>
+                    <constraint firstItem="nmc-db-F9v" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="Xdj-xo-48u"/>
+                    <constraint firstItem="nmc-db-F9v" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="diG-Zg-qtT"/>
+                    <constraint firstAttribute="bottom" secondItem="nmc-db-F9v" secondAttribute="bottom" constant="2" id="q46-bJ-sJ6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="allBarcodeLB" destination="2aB-L0-LsR" id="KPc-2r-HTT"/>
+                <outlet property="bgView" destination="nmc-db-F9v" id="Jv6-Ao-8kk"/>
+                <outlet property="codeLB" destination="533-dS-x7a" id="dNc-Nf-udq"/>
+                <outlet property="mainBarcodeLB" destination="Sis-W7-ayp" id="UJA-Nt-cw4"/>
+                <outlet property="nameLB" destination="yRm-rd-KZk" id="b8Z-hO-E3m"/>
+                <outlet property="priceLB" destination="Fqb-JX-lVa" id="M9i-tS-bWY"/>
+            </connections>
+            <point key="canvasLocation" x="230.43478260869566" y="133.92857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
